@@ -9,6 +9,10 @@
     color:rgb(82, 81, 81)
 }
 
+.abstract-pic{
+    padding-top: 50px;
+}
+
 .authors{
     background-color: #dbe3e7;
 }
@@ -17,6 +21,11 @@
 .footer{
     background-color: #5794c9;
 }
+
+.history-pic{
+    padding-top: 30px;
+}
+
 /*
 .howTo{
     font-size: 20px;
@@ -50,9 +59,15 @@
     padding-right: 20px;
 }
 
+
+
 .procedure{
     background-color: #dbe3e7;
     padding: 1px;
+}
+
+.rationale-pic{
+    padding-top: 100px;
 }
 
 .showcase{
@@ -85,3 +100,4 @@
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
+
