@@ -13,8 +13,9 @@
     background-color: #dbe3e7;
 }
 
+
 .footer{
-    background-color: #023E8A;
+    background-color: #5794c9;
 }
 /*
 .howTo{
@@ -26,14 +27,16 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #5794c9;
 }
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
+    color: #ffffff;
 }
+
 
 .overview{
     background-color: #dbe3e7;
