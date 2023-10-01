@@ -10,13 +10,16 @@
 }
 
 .abstract-pic{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .authors{
     background-color: #dbe3e7;
 }
 
+.card-text{
+    font-family:'Times New Roman', Times, serif;
+}
 
 .footer{
     background-color: #5794c9;
@@ -35,6 +38,11 @@
     color: #FFFFFF;
 }
 
+.landing-head{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 .nb-background-color{   /* navbar background color */
     background-color: #5794c9;
 }
@@ -49,6 +57,10 @@
 
 .overview{
     background-color: #dbe3e7;
+}
+
+.overview-font{
+    font-family:'Times New Roman', Times, serif;
 }
 
 .ovPadLeft{
