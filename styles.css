@@ -29,11 +29,12 @@
     padding-top: 30px;
 }
 
-/*
+
 .howTo{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-*/
+
 .icon-white{            /* Arrow icon at bottom of page */
     color: #FFFFFF;
 }
@@ -84,6 +85,11 @@
 
 .showcase{
     background-color: #8fa3ab; /*#0096c7*/
+}
+
+.table-primary{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 /* ----------------- ID CSS ----------------- */
