@@ -25,6 +25,11 @@
     background-color: #5794c9;
 }
 
+.graph1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .history-pic{
     padding-top: 30px;
 }
@@ -45,7 +50,7 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #5794c9 !important;
+    background-color: #5794c9;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -118,4 +123,6 @@
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
+
+
 

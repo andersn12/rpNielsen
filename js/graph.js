@@ -65,57 +65,57 @@ async function createChart(){
                     label: 'Hydrogen Generation For 0.0V Condition (mL)',
                     data: data.y0_0V,
                     fill: false,
-                    backgroundColor: 'rgba(50, 121, 168, 0.2)',
-                    borderColor: 'rgba(50, 121, 168, 1)',
+                    backgroundColor: 'rgba(255, 0, 221, 0.2)',
+                    borderColor: 'rgba(255, 0, 221, 1)',
                     bordWidth: 1
                 },
                 {
                     label: 'Hydrogen Generation For 2.5V Condition (mL)',
                     data: data.y2_5V,
                     fill: false,
-                    backgroundColor: 'rgba(27, 196, 146, 0.2)',
-                    borderColor: 'rgba(27, 196, 146, 1)',
+                    backgroundColor: 'rgba(0, 255, 255, 0.2)',
+                    borderColor: 'rgba(0, 255, 255, 1)',
                     bordWidth: 1
                 },
                 {
                     label: 'Hydrogen Generation For 3.0V Condition (mL)',
                     data: data.y3_0V,
                     fill: false,
-                    backgroundColor: 'rgba(207, 134, 19, 0.2)',
-                    borderColor: 'rgba(207, 134, 19, 1)',
-                    borderWidth: 1
+                    backgroundColor: 'rgba(235, 235, 21, 0.2)',
+                    borderColor: 'rgba(235, 235, 21, 1)',
+                    borderWidth: 2
                 },
                 {
-                    label: 'Total Hydrogen Generation For 3.5V Condition (mL)',
+                    label: 'Hydrogen Generation For 3.5V Condition (mL)',
                     data: data.y3_5V,
                     fill: false,
-                    backgroundColor: 'rgba(19, 207, 53, 0.2)',
-                    borderColor: 'rgba(19, 207, 53, 1)',
+                    backgroundColor: 'rgba(255, 170, 0, 0.2)',
+                    borderColor: 'rgba(255, 170, 0, 1)',
                     bordWidth: 1
                 },
                 {
                     label: 'Hydrogen Generation For 4.0V Condition (mL)',
                     data: data.y4_0V,
                     fill: false,
-                    backgroundColor: 'rgba(188, 194, 33, 0.2)',
-                    borderColor: 'rgba(188, 194, 33, 1)',
-                    borderWidth: 1
+                    backgroundColor: 'rgba(255, 0, 34, 0.2)',
+                    borderColor: 'rgba(255, 0, 34, 1)',
+                    borderWidth: 2
                 },
                 {
                     label: 'Total Hydrogen Generation For 4.5V Condition (mL)',
                     data: data.y4_5V,
                     fill: false,
-                    backgroundColor: 'rgba(186, 32, 24, 0.2)',
-                    borderColor: 'rgba(186, 32, 24, 1)',
+                    backgroundColor: 'rgba(0, 255, 72, 0.2)',
+                    borderColor: 'rgba(0, 255, 72, 1)',
                     bordWidth: 1
                 },
                 {
                     label: 'Hydrogen Generation For 5.0V Condition (mL)',
                     data: data.y5_0V,
                     fill: false,
-                    backgroundColor: 'rgba(18, 33, 176, 0.2)',
-                    borderColor: 'rgba(18, 33, 176, 1)',
-                    borderWidth: 1
+                    backgroundColor: 'rgba(0, 24, 255, 0.2)',
+                    borderColor: 'rgba(0, 24, 255, 1)',
+                    borderWidth: 2
                 }
             ]
         },
@@ -133,7 +133,7 @@ async function createChart(){
                     ticks: {
                         callback: function(val, index){
                                 // Labeling of tick marks can be controlled by code and font size
-                                return index % 5 === 0 ? this.getLabelForValue(val) : '';
+                                return index % 4 === 0 ? this.getLabelForValue(val) : '';
                         },
                         font: {
                             size: 10
@@ -159,7 +159,7 @@ async function createChart(){
             plugins: {          // Display options
                 title: {
                     display: true,
-                    text: 'Hydrogen Generation (mL) vs Time',
+                    text: 'Hydrogen Generation from Seawater Electrolysis vs Time',
                     font: {
                         size: 24
                     },
