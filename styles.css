@@ -45,7 +45,7 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #5794c9;
+    background-color: #5794c9 !important;
 }
 
 .nbMenuItem{               /* navbar link text properties */
