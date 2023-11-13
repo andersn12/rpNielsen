@@ -3,8 +3,8 @@
 */ 
 
 async function getData(){
-    const response = await fetch('/rp_Nielsen/data/trial_1.csv')
-    //const response = await fetch('../data/trial_1.csv');   // Double period moves up one folder
+    //const response = await fetch('/rp_Nielsen/data/trial_1.csv')
+    const response = await fetch('../data/trial_1.csv');   // Double period moves up one folder
     const data = await response.text();     // CSV is in text format
     // console.log(data);
 
